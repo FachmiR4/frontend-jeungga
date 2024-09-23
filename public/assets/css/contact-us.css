@@ -1,0 +1,177 @@
+.parent-content-contact-us{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 2;
+    gap: 30px;
+    @media (min-width:992px) {
+        flex-direction: row;
+    }
+}
+.parent-top-contact-us-section{
+    /* background-image: url('../../assets/file/bg\ square.png'); */
+}
+.contact-us-content-title{
+    h1{
+        font-family: Raleway;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 46.96px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #ECE5D3;
+    }
+    p{
+        font-family: Gabarito;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: #ECE5D3;
+    }
+}
+
+.content-contact-us-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 50px;
+    margin-left: 30px;
+    @media (min-width:992px) {
+        width: 50%;
+    }
+
+}
+.form-parent-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 93%;
+    margin-left: 26px;
+}
+.form-child-contact{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    button{
+        width: 100%;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16.5457px 16px;
+        gap: 10.34px;
+
+        height: 51px;
+
+        background: linear-gradient(0deg, rgba(208, 152, 9, 0.4), rgba(208, 152, 9, 0.4)), #ECE5D3;
+        border-radius: 16px;
+        color: white;
+    }
+    flex-wrap: wrap;
+    @media (min-width:992px) {
+        flex-wrap: nowrap;
+    }
+}
+.form-double{
+    width: 100%;
+    height: 51px;
+    padding: 16.55px 16px 16.55px 16px;
+    gap: 10.34px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0) 100%);
+    opacity: 0px;
+    border: 1.03px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0) 100%);
+    color: white;
+    outline: none;
+}
+.form-single{
+    width: 100%;
+    height: 51px;
+    padding: 16.55px 16px 16.55px 16px;
+    gap: 10.34px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0) 100%);
+    border: 1.03px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0) 100%);
+    color: white;
+    outline: none;
+
+}
+.textarea-contact{
+    width: 100%;
+    height: 173px;
+    gap: 20px;
+    border-radius: 16px;
+    opacity: 0px;
+    padding: 16.55px 16px 16.55px 16px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0) 100%);
+    border: 1.03px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0) 100%);
+    color: white;
+    outline: none;
+}
+.images-contact-us{
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 25px;
+    img{
+        width: 100%;
+        top: 0;
+        position: absolute;
+    }
+}
+.contact-us-email{
+    width: 100%;
+    padding: 16.55px 30px 16.55px 30px;
+    gap: 10.34px;
+    border-radius: 16px;
+    border: 1.03px;
+    opacity: 0px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0) 100%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ECE5D3;
+}
+.contact-me-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 15px;
+    width: 73%;
+    position: relative;
+    height: 370px;
+    margin-left: 60px;
+    @media (min-width:375px) {
+        height: 400px;
+    }
+    @media (min-width:475px) {
+        height: 500px;
+    }
+    @media (min-width:524px) {
+        height: 600px;
+    }
+    @media (min-width:624px) {
+        height: 700px;
+    }
+    @media (min-width:843px) {
+        height: 800px;
+    }
+    @media (min-width:992px) {
+        height: 700px;
+    }
+}
+.title-contact-email{
+
+}
